@@ -1,0 +1,219 @@
+body {
+  background-color: #E4EDE5;
+  margin: 0;
+}
+
+/* Navigation Bar  */
+.language{
+  font-size: 0.6rem;
+  color: #D3D3D3 !important;
+}
+.brand_title{
+  font-size: 1.5rem;
+  font-family: "Montserrat-Black" sans-serif;
+}
+.navigation-items{
+  margin-right: 1rem;
+}
+.profile-img{
+  width: 3rem;
+}
+
+
+/* HomePage */
+#title{
+  margin-bottom: 100px;
+}
+.home-img{
+  margin-left: 50%;
+  margin-top: 7%;
+  width: 150%;
+  position: absolute;
+  z-index: -1;
+}
+.login-signup-container{
+  margin: 1rem 1rem;
+}
+.buttons-container-homepage {
+  padding-left: 60%;
+}
+.button-homepage{
+  width: 200px;
+}
+
+/* Solution Section */
+#solution{
+  margin: 3rem 0 0 0;
+  background-color: #8DB98A;
+  padding: 5rem;
+  text-align: center;
+}
+.solution-title{
+  margin-top: 1.5rem;
+}
+
+/* WhoAreYou Section*/
+#who-are-you{
+  background-color: #efe9cc;
+  text-align: center;
+}
+.who-are-you-title{
+  color: #212529;
+  font-family: "Montserrat-Light" sans-serif ;
+  font-size: 3rem;
+  padding: 1rem;
+}
+.who-are-you-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.who-are-you-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.who-are-you-paragraph{
+  color: #5b5656;
+  font-weight: bold;
+  padding: 0 30%;
+}
+
+/* About Section */
+#about{
+  background-color: #FBDDA7;
+  text-align: center;
+}
+.about-paragraph{
+  padding: 5% 30%;
+  color: #5b5656;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* Contact Us Section */
+#contactus{
+  background-color: #bbbbbb;
+  text-align: center;
+}
+.contactus-paragraph{
+  padding: 2% 2%;
+  color: #5b5656;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.button-contactus{
+    width: 200px;
+    margin-bottom: 1%;
+}
+
+/* Footer Section */
+#footer{
+  background-color: #212529;
+  text-align: center;
+  margin: 0;
+}
+a{
+  padding: 0 2%;
+  text-decoration: none;
+  color: #5b5656;
+  font-weight: bold;
+}
+a:hover{
+  padding: 0 2%;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.copy-right{
+  padding: 1rem 0;
+  font-size: 0.75rem;
+  color: white;
+  margin-bottom: 0;
+}
+
+/* Login/Sign Up Section  */
+.send-button {
+  background: #54C7C3;
+  width: 100%;
+  font-weight: 600;
+  color: #fff;
+  padding: 8px 25px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.g-button {
+  color: #fff !important;
+  border: 1px solid #EA4335;
+  background: #ea4335 !important;
+  width: 100%;
+  font-weight: 600;
+  color: #fff;
+  padding: 8px 25px;
+}
+
+.my-input {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: text;
+  padding: 8px 10px;
+  transition: border .1s linear;
+}
+
+.header-title {
+  margin: 5rem 0;
+}
+
+h1 {
+  font-size: 31px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #4c5357;
+}
+
+h2 {
+  color: #5e8396;
+  font-size: 21px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.login-or {
+  position: relative;
+  color: #aaa;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.span-or {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: -2px;
+  margin-left: -25px;
+  background-color: #fff;
+  width: 50px;
+  text-align: center;
+}
+
+.hr-or {
+  height: 1px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+@media screen and (max-width:480px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
